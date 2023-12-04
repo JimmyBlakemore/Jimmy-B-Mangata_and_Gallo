@@ -183,3 +183,112 @@
      margin-left: 10px;
      margin-right: -220px;
  }
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header img {
+        margin-left: 20px;
+        max-width: 120px;
+    }
+
+    nav a {
+        margin-right: 20px;
+        font-size: 1.2rem;
+    }
+
+    main {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    main p {
+        font-size: 1.8rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    .promo-banner {
+        margin-bottom: 40px;
+        padding: 15px;
+    }
+
+    .title h1 {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card:hover {
+        top: calc(50% - 2px);
+        border: 1px solid rgba(#F2F4F8, 0);
+        box-shadow: 0 15px 20px rgba(0, 0, 0, .6), 0 0 5px rgba(0, 0, 0, .1);
+        cursor: pointer;
+    }
+
+    .card:active {
+        top: 50%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .6), 0 0 2px rgba(0, 0, 0, .1);
+        transition: ease-in-out .1s;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+
+    .btn:hover {
+        background-color: rosybrown;
+        color: white;
+    }
+
+    .columns {
+        padding-bottom: 20px;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .copyright a {
+        font-size: 0.9rem;
+    }
+
+    .footer-logo {
+        max-width: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
