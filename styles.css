@@ -198,10 +198,33 @@
         max-width: 120px;
     }
 
-    nav a {
-        margin-right: 20px;
-        font-size: 1.2rem;
+    nav {
+        flex-direction: column; /* Change to a column layout for mobile */
+        align-items: center; /* Center align items in the column */
     }
+
+    nav a {
+        margin: 10px 0; /* Add space between mobile navigation links */
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
 
     main {
         margin: 40px auto;
