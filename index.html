@@ -1,175 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Jimmy Blakemore</title>
-    <style>
-        #container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .content {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        body {
-            background-color: #000000;
-            color: #FF0000;
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            text-align: center;
-            font-size: x-large;
-
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
-
-        a {
-            color: #FF0000;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        li {
-            text-decoration: none;
-            text-align: center;
-        }
-
-        .header {
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-        }
-
-        .top-banner {
-            margin-top: 50px;
-            height: 30px;
-        }
-
-        .bottom-banner {
-            margin-bottom: 20px;
-            margin-top: 40px;
-            height: 30px;
-        }
-
-        #header {
-            background-color: #8B0000;
-            color: #000000;
-            padding: 10px;
-            padding: 0;
-        }
-
-        .content {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-
-        .profile-photo {
-            height: 400px;
-            width: auto;
-
-            opacity: 0.95;
-            filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grain'><feTurbulence type='fractalNoise' baseFrequency='0.02' numOctaves='3' result='NOISE'/><feColorMatrix in='NOISE' type='saturate' values='0' result='GRAYSCALE'/><feColorMatrix in='GRAYSCALE' type='matrix' values='0.8 0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0 0 0 0 10 -3' result='GRAIN'/><feComposite in='SourceGraphic' in2='GRAIN' operator='multiply'/></filter></svg>#grain");
-        }
-
-        .profile-photo {
-            height: 400px;
-            width: auto;
-            background-image: url("https://via.placeholder.com/400x400");
-            opacity: 0.95;
-            filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grain'><feTurbulence type='fractalNoise' baseFrequency='0.02' numOctaves='3' result='NOISE'/><feColorMatrix in='NOISE' type='saturate' values='0' result='GRAYSCALE'/><feColorMatrix in='GRAYSCALE' type='matrix' values='0.8 0 0 0 0 0.8 0 0 0 0 0.8 0 0 0 0 0 0 0 10 -3' result='GRAIN'/><feComposite in='SourceGraphic' in2='GRAIN' operator='multiply'/></filter></svg>#grain") blur(1px);
-        }
-
-
-        #footer {
-            background-color: #8B0000;
-            color: #000000;
-            padding: 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            margin-top: 40px;
-            position: relative;
-        }
-    </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangata & Gallo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="header">
 
-        <img class="top-banner" src="http://www.textfiles.com/underconstruction/mamagnolia_acresunderconstruction.gif"
-            alt="">
-        <h1>Jimmy Blakemore</h1>
-        <h2>Author of Horror</h2>
-        <p>Welcome to the dark and twisted world of Jimmy Blakemore, where nightmares become reality and horrors lurk
-            around
-            every corner.</p>
-    </div>
-    </div>
+    <header>
+        <img src="Mangata & Gallo/Assets/Asset 3@3x.png" alt="Mangata & Gallo Logo">
 
-    <div class="content">
-        <img style="margin-bottom: 800px; margin-top: 200px; width: 700px;"
-            src="https://web.archive.org/web/20090904042619im_/http://geocities.com/Athens/Acropolis/3580/retina.gif"
-            alt="">
-        <img style="margin-bottom: 600px;" class="profile-photo"
-            src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/295671610_150396394315716_8567325610046101407_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=lzKsdXnNgsEAX-7mjNy&_nc_ht=scontent-atl3-2.xx&oh=00_AfCKqSG7ysgx88oJ-U63da1wgdrcv8PXIAS1UpAf3dbQYA&oe=641ACD27"
-            alt="">
-        <h2>About Me</h2>
-        <p>I am a writer of horror fiction, specializing in stories that will keep you up at night.</p>
-        <p style="margin-bottom: 600px;">If you're a fan of horror and the macabre, then you'll love my stories. From
-            supernatural thrillers to
-            psychological
-            horror, my tales will take you on a terrifying journey that you won't soon forget.</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-        <h2>My Books</h2>
-        <p>Check out my latest stories:</p>
-        <ul style="margin-bottom: 600px;">
-            <li><a href="#">The Paradise Estates</a></li>
-            <li><a href="#">The Ones We Love</a></li>
-        </ul>
+    <main>
+        <img class="promo-banner" src="Mangata & Gallo/Assets/Asset 2@3x.png" alt="Promotional Banner" width="1200"
+            height="auto">
 
-        
+        <div class="columns">
+            <div class="column card">
+                <h1 class="title">Engagements</h1>
+                <img src="Mangata & Gallo/Assets/female-hands-close-up-with-wedding-ring.jpg" alt="Image 1">
+                <p>Discover Exquisite Engagements</p>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="column card ">
+                <h1 class="title">Weddings</h1>
+                <img src="Mangata & Gallo/Assets/groom-bride-are-putting-wedding-rings-front-view-hands.jpg"
+                    alt="Image 2">
+                <p>Celebrate Timeless Weddings</p>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="column card">
+                <h1 class="title">Annaversaries</h1>
+                <img src="Mangata & Gallo/Assets/valentine-s-gift.jpg" alt="Image 3">
+                <p>Cherish Milestone Anniversaries</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </main>
 
-    </div>
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <img class="footer-logo" src="Mangata & Gallo/Assets/Asset 3@3x.png" alt="Small Logo">
+            </div>
+            <div class="footer-column copyright">
+                <p>&copy; 2023 by <a href="#">MANGATA & GALLO</a></p>
+            </div>
+        </div>
+    </footer>
 
-    <div id="footer">
-
-        <img class="bottom-banner"
-            src="http://www.textfiles.com/underconstruction/mamagnolia_acresunderconstruction.gif" alt="">
-        <p>&copy; 1992-2023 Jimmy Blakemore. All rights reserved.</p>
-
-
-
-    </div>
 </body>
 
 </html>
