@@ -226,32 +226,27 @@
     }
 
     .card {
+        width: 80%; /* Adjust card width for smaller screens */
         margin: 0 auto;
     }
 
     .card:hover {
-        top: calc(50% - 2px);
-        border: 1px solid rgba(#F2F4F8, 0);
-        box-shadow: 0 15px 20px rgba(0, 0, 0, .6), 0 0 5px rgba(0, 0, 0, .1);
+        top: auto;
+        border: 1px solid rgba(242, 244, 248, 0);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .6), 0 0 2px rgba(0, 0, 0, .1);
         cursor: pointer;
     }
 
     .card:active {
-        top: 50%;
+        top: auto;
         box-shadow: 0 5px 10px rgba(0, 0, 0, .6), 0 0 2px rgba(0, 0, 0, .1);
         transition: ease-in-out .1s;
     }
 
     .btn {
-        display: inline-block;
         padding: 8px 16px;
         margin-bottom: 15px;
         font-size: 1rem;
-    }
-
-    .btn:hover {
-        background-color: rosybrown;
-        color: white;
     }
 
     .columns {
@@ -291,4 +286,5 @@
         margin-right: 0;
     }
 }
+    
 
